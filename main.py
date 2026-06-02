@@ -1,22 +1,6 @@
 import argparse
 import os
-from funcoes.cria_matriz_distancia import cria_matriz_distancia
-from funcoes.cria_grafico import (
-    plot_convergencia_comparacao,
-    plot_rotas_comparacao,
-)
-from funcoes.analise_estatistica import (
-    analise_estatistica,
-    imprime_estatisticas,
-    calcula_historico_medio,
-    teste_mann_whitney,
-)
-from funcoes.ler_instancia import le_arquivo
-from algoritmo_pso import AlgoritmoPSO_TSP
-from algoritmo_ga import AlgoritmoGeneticoTSP
 from roda_experimento import rodar_experimento
-from funcoes.salva_estatistica import salva_estatisticas_txt
-
 
 def main():
     parser = argparse.ArgumentParser(
