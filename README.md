@@ -65,7 +65,7 @@ de cada algoritmo e o resultado do teste de Wilcoxon-Mann-Whitney.
 ├── algoritmo_pso.py              # Otimização por Enxame de Partículas
 ├── roda_experimento.py           # Função que roda o experimento, imprime e salva os dados
 ├── requirements.txt              # dependências Python
-├── Artigo_TP_1_IA.pdf                    # Artigo completo do experimento e resultados
+├── Artigo_TP_1_IA.pdf            # Artigo completo do experimento e resultados
 ├── funcoes/
 │   ├── ler_instancia.py          # leitura do arquivo de cidades
 │   ├── calcula_dist_euclidiana.py# calcula a distância euclidiana entre cidades
