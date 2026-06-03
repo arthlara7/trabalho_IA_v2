@@ -1,0 +1,23 @@
+INSTÂNCIA: instancia (12 cidades)
+============================================================
+
+--- GA ---
+  Melhor   : 29.2487
+  Pior     : 32.0772
+  Média    : 29.4924
+  Desvio   : 0.6694
+  Tempo méd: 0.3598 seg
+  Melhor rota: [8, 10, 6, 9, 7, 11, 4, 2, 3, 1, 0, 5]
+
+--- PSO ---
+  Melhor   : 29.2487
+  Pior     : 31.8345
+  Média    : 29.9931
+  Desvio   : 1.0293
+  Tempo méd: 0.1209 seg
+  Melhor rota: [6, 10, 8, 5, 0, 1, 3, 2, 4, 11, 7, 9]
+
+--- Mann-Whitney ---
+  Estatística U: 273.5000
+  p-valor      : 0.002567
+  Significativo: True
